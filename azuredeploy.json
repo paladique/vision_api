@@ -111,10 +111,6 @@
               {
                 "name": "TwitterAuthenticationToken",
                 "value": "[toLower(parameters('twitterAuthenticationToken'))]"
-              },
-              {
-                "name": "twitterConsumerKey",
-                "value": "[toLower(parameters('twitterConsumerKey'))]"
               }
           ]
         }
