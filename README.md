@@ -1,3 +1,4 @@
+[![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/?repository=https://github.com/paladique/vision_api)
 # Twitter Vision Bot: @vision_api
 
 I wanted to experiment with Azure Cognitive Services, Vision API. SO I thought it would be fun to make a social account that could talk to anyone interested. So @Vision_API on Twitter was born. If tagged on a tweet (or reply) with a photo, the service will reply with a description of the photo.
