@@ -86,7 +86,7 @@
               },
               {
                   "name": "StorageConnection",
-                  "value": "[toLower(parameters('storageAccountConnectionString'))]"
+                  "value": "[toLower(parameters('azureWebJobsStorage'))]"
               },
               {
                 "name": "AzureVisionUriBase",
