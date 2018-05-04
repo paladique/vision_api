@@ -94,23 +94,23 @@
               },
               {
                 "name": "AzureVisionApiSubscriptionKey",
-                "value": "[toLower(parameters('azureVisionApiSubscriptionKey'))]"
+                "value": "[parameters('azureVisionApiSubscriptionKey')]"
               },
               {
                 "name": "TwitterTokenSecret",
-                "value": "[toLower(parameters('twitterTokenSecret'))]"
+                "value": "[parameters('twitterTokenSecret')]"
               },
               {
                 "name": "TwitterConsumerKey",
-                "value": "[toLower(parameters('twitterConsumerKey'))]"
+                "value": "[parameters('twitterConsumerKey'))]"
               },
               {
                 "name": "TwitterConsumerSecret",
-                "value": "[toLower(parameters('twitterConsumerSecret'))]"
+                "value": "[parameters('twitterConsumerSecret')]"
               },
               {
                 "name": "TwitterAuthenticationToken",
-                "value": "[toLower(parameters('twitterAuthenticationToken'))]"
+                "value": "[parameters('twitterAuthenticationToken')]"
               }
           ]
         }
